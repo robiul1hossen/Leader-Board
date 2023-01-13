@@ -108,7 +108,7 @@ body {
 
 /* Responsive Styles */
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 576px) {
   .container {
     width: auto;
   }
@@ -145,7 +145,7 @@ body {
     margin-top: 20px;
   }
 }
-@media screen and (min-width: 321px) and (max-width: 768px) {
+@media screen and (min-width: 577px) and (max-width: 768px) {
   .container {
     width: auto;
   }
