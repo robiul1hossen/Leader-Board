@@ -1,8 +1,6 @@
 body {
   background-color: #e5e5e5;
-  font-family: "Open Sans", sans-serif;
   font-family: "Poppins", sans-serif;
-  font-family: "Work Sans", sans-serif;
 }
 .container {
   background-color: #fff;
@@ -147,7 +145,7 @@ body {
     margin-top: 20px;
   }
 }
-@media screen and(min-width:321px) and (max-width: 768px) {
+@media screen and (min-width: 321px) and (max-width: 768px) {
   .container {
     width: auto;
   }
