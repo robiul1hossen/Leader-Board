@@ -110,7 +110,44 @@ body {
 
 /* Responsive Styles */
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 320px) {
+  .container {
+    width: auto;
+  }
+  .players {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .blogs {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .blog-img img {
+    height: 90px;
+    width: 121px;
+  }
+  .blog-title {
+    font-size: 18px;
+
+    margin-bottom: -10px;
+  }
+  .courses {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 50px;
+  }
+  .course-item img {
+    width: 245px;
+    height: 130px;
+  }
+  .course-rating {
+    flex-direction: column;
+  }
+
+  .duration {
+    width: 75px;
+    position: initial;
+    margin-top: 20px;
+  }
+}
+@media screen and(min-width:321px) and (max-width: 768px) {
   .container {
     width: auto;
   }
